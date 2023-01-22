@@ -4,5 +4,5 @@ from .Controller_v1 import controller
 router = Blueprint('router', __name__)
 
 @router.get('/')
-def index():
-    return controller.index()
+def test():
+    return controller.test()

@@ -1,5 +1,5 @@
 class Controller:
-    def index(self):
-        return 'my controller works!'
+    def test(self):
+        return 'my controller v1 works!'
     
 c = Controller()
